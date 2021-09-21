@@ -28,11 +28,14 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
-  audioplayers: ^0.8.1
+  audioplayers: ^0.20.1
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  
+   
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -62,16 +65,16 @@ flutter:
   # list giving the asset and other descriptors for the font. For
   # example:
   fonts:
-    - family: Spectral-Regular
+    - family: Spectral
       fonts:
         - asset: assets/fonts/Spectral-Regular.ttf
         
   #         style: italic
-    - family: FleurDeLeah-Regular
+    - family: FleurDeLeah
       fonts:
         - asset: assets/fonts/FleurDeLeah-Regular.ttf
 
-    - family: Nunito-Bold
+    - family: Nunito
       fonts:
         - asset: assets/fonts/Nunito-Bold.ttf
   #       - asset: fonts/TrajanPro_Bold.ttf
